@@ -1,0 +1,182 @@
+/* -----------------------updated code start------------------------------------ */
+
+body {
+  /* background-color: aliceblue; */
+}
+
+.main-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero-section-left-side {
+  position: relative; /* This ensures that the circle is positioned relative to this container */
+  text-align: center;
+}
+
+.hero-section-left-text {
+  font-size: 2.3rem !important;
+  font-weight: 700 !important;
+  color: #000236;
+  text-transform: capitalize;
+}
+
+.hero-section-left-description {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section-left-description-text {
+  font-size: 15px !important;
+  max-width: 400px;
+  color:#f4753A;
+  line-height: 1;
+}
+
+.hero-section-right-side {
+  background-color: aliceblue;
+}
+
+.hero-section-right-side-image {
+  width:38rem;
+  height:30rem;
+}
+
+.hero-section-orange-circle {
+  height: 3rem;
+  width: 3rem;
+  background: orange;
+  border-radius: 999px;
+  position: absolute;
+  left:7%; /* Position horizontally in the middle */
+  transform: translateX(
+    -50%
+  ); /* Offset the circle to the left by 50% of its width */
+  top: -1.2rem; /* Position it above the Typography */
+  z-index: -1; /* To keep the circle behind the text */
+}
+
+.hero-section-countup-stats{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* ------------------------------end------------------------------------ */
+
+/* 
+.hero {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/hero.jpg'); 
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+  }
+
+  .hero::after {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.259); 
+    z-index: -1; 
+  }
+ 
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #0E82F6;
+    
+  }
+  
+  
+  .cards-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .card-hero1 {
+    /
+    background-color: rgba(14, 130, 246, 0.647);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 250px;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card1 {
+    background: linear-gradient(180deg, rgb(79, 167, 255) 2.15%,rgba(79, 167, 255, 0.182) 95.89%);
+    
+  }
+  
+  .card-hero1 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    
+    
+  }
+  
+  .card-hero1 p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .card-hero1 button {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(79, 167, 255, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin: auto; 
+  }
+  
+  .card-hero1 button:hover {
+    color:rgb(25, 35, 40);
+}
+
+   */
